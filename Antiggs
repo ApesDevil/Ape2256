@@ -1,17 +1,17 @@
 --[Aimviewer Settings]--
-AimviewerToggleKeybind = "z" -- Aimviewer toggle keybind
-AimviewerSwitchKeybind = "x" -- Switch player keybind
+AimviewerToggleKeybind = "T" -- Aimviewer toggle keybind
+AimviewerSwitchKeybind = "Y" -- Switch player keybind
 AimviewerColor = Color3.fromRGB(28, 56, 139) -- Color of Aimviewer beam
 AimviewerBeamWidth = 0.2 -- Width of Aimviewer beam
 AimviewerMaterial = "Neon" -- Material of Aimviewer beam (if material is invalid it will default to neon)
 
 
 --[Prediction Settings]--
-PredictionKeybind = "v" -- Prediction toggle keybind
+PredictionKeybind = "V" -- Prediction toggle keybind
 PredictionMultiplier = 3 -- Prediction Multiplier
 
 --[Antilock]--
-AntiKeybind = "c" -- Antilock toggle keybind
+AntiKeybind = "C" -- Antilock toggle keybind
 AntiVelocity = 1450,0,0 -- Only change this if yk what youre doing
 
 --[Miscallaneous]--

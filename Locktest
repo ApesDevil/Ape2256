@@ -54,7 +54,7 @@ end
 
 function Library:Create(xHubName,xGameName)
     local xHubName = xHubName or "UI Library"
-    local xGameName = xGameName or "By Mapple#3045"
+    local xGameName = xGameName or "By ! ape#2256"
     local ScreenGui = Instance.new("ScreenGui")
     local Main = Instance.new("Frame")
     local MainCorner = Instance.new("UICorner")
@@ -90,7 +90,7 @@ function Library:Create(xHubName,xGameName)
 
     Sidebar.Name = "Sidebar"
     Sidebar.Parent = Main
-    Sidebar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    Sidebar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Sidebar.Size = UDim2.new(0, 140, 0, 370)
 
     SidebarCorner.Name = "SidebarCorner"
@@ -98,7 +98,7 @@ function Library:Create(xHubName,xGameName)
 
     Filler.Name = "Filler"
     Filler.Parent = Sidebar
-    Filler.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    Filler.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Filler.BorderSizePixel = 0
     Filler.Position = UDim2.new(0.930769145, 0, 0, 0)
     Filler.Size = UDim2.new(0, 9, 0, 370)
@@ -124,7 +124,7 @@ function Library:Create(xHubName,xGameName)
 
     ActualSide.Name = "ActualSide"
     ActualSide.Parent = Sidebar
-    ActualSide.BackgroundColor3 = Color3.fromRGB(14, 34, 78)
+    ActualSide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     ActualSide.BackgroundTransparency = 1.000
     ActualSide.BorderSizePixel = 0
     ActualSide.Position = UDim2.new(0, 0, 0.172972977, 0)
@@ -138,7 +138,7 @@ function Library:Create(xHubName,xGameName)
 
     SideLine.Name = "SideLine"
     SideLine.Parent = Sidebar
-    SideLine.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    SideLine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     SideLine.BorderSizePixel = 0
     SideLine.Position = UDim2.new(1, 0, 0, 0)
     SideLine.Size = UDim2.new(0, 2, 0, 370)
@@ -157,7 +157,7 @@ function Library:Create(xHubName,xGameName)
 
     TabHolder.Name = "TabHolder"
     TabHolder.Parent = Main
-    TabHolder.BackgroundColor3 = Color3.fromRGB(14, 34, 78)
+    TabHolder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TabHolder.BackgroundTransparency = 1.000
     TabHolder.BorderSizePixel = 0
     TabHolder.Position = UDim2.new(0.244827583, 0, 0.024324324, 0)
@@ -213,7 +213,7 @@ function Library:Create(xHubName,xGameName)
         Tab.ChildRemoved:Connect(Size)
 
         if xVisible then 
-            TabButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+            TabButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             TabButton.TextColor3 = Color3.fromRGB(14, 34, 78)
         else 
             TabButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -253,7 +253,7 @@ function Library:Create(xHubName,xGameName)
 
             LabelFrame.Name = tostring(Name).."_Label"
             LabelFrame.Parent = Tab
-            LabelFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+            LabelFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             LabelFrame.Position = UDim2.new(0.0456621014, 0, 0, 0)
             LabelFrame.Size = UDim2.new(0, 408, 0, 35)
 
@@ -301,7 +301,7 @@ function Library:Create(xHubName,xGameName)
 
             ButtonFrame.Name = tostring(Name).."_Button"
             ButtonFrame.Parent = Tab
-            ButtonFrame.BackgroundColor3 = Color3.fromRGB(14, 34, 78)
+            ButtonFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             ButtonFrame.Size = UDim2.new(0, 408, 0, 35)
             
             ButtonFrameCorner.Name = "ButtonFrameCorner"
@@ -369,7 +369,7 @@ function Library:Create(xHubName,xGameName)
 
             ToggleFrame.Name = tostring(Name).."_Toggle"
             ToggleFrame.Parent = Tab
-            ToggleFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+            ToggleFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             ToggleFrame.BorderSizePixel = 0
             ToggleFrame.Size = UDim2.new(0, 408, 0, 35)
 
@@ -457,7 +457,7 @@ function Library:Create(xHubName,xGameName)
 
             SliderFrame.Name = tostring(Name).."_Slider"
             SliderFrame.Parent = Tab
-            SliderFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+            SliderFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             SliderFrame.Size = UDim2.new(0, 408, 0, 50)
 
             SliderFrameCorner.Name = "SliderFrameCorner"
@@ -573,7 +573,7 @@ function Library:Create(xHubName,xGameName)
 
             TextboxFrame.Name = tostring(Name).."_Textbox"
             TextboxFrame.Parent = Tab
-            TextboxFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+            TextboxFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             TextboxFrame.Size = UDim2.new(0, 408, 0, 35)
 
             TextboxFrameCorner.Name = "TextboxFrameCorner"
@@ -602,7 +602,7 @@ function Library:Create(xHubName,xGameName)
             Textbox.Position = UDim2.new(0.610294104, 0, 0.171428576, 0)
             Textbox.Size = UDim2.new(0, 150, 0, 23)
             Textbox.Font = Enum.Font.Gotham
-            Textbox.PlaceholderColor3 = Color3.fromRGB(14, 34, 78)
+            Textbox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
             Textbox.PlaceholderText = Default
             Textbox.Text = ""
             Textbox.TextColor3 = Color3.fromRGB(14, 34, 78)
@@ -638,7 +638,7 @@ function Library:Create(xHubName,xGameName)
 
             KeybindFrame.Name = tostring(Name).."_Keybind"
             KeybindFrame.Parent = Tab
-            KeybindFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+            KeybindFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             KeybindFrame.BorderSizePixel = 0
             KeybindFrame.Size = UDim2.new(0, 408, 0, 35)
             
@@ -663,7 +663,7 @@ function Library:Create(xHubName,xGameName)
             
             KeybindButton.Name = "KeybindButton"
             KeybindButton.Parent = KeybindFrame
-            KeybindButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+            KeybindButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             KeybindButton.Position = UDim2.new(0.610294104, 0, 0.171428576, 0)
             KeybindButton.Size = UDim2.new(0, 150, 0, 23)
             KeybindButton.Font = Enum.Font.Gotham
@@ -717,7 +717,7 @@ function Library:Create(xHubName,xGameName)
 
             DropdownFrame.Name = tostring(Name).."_Dropdown"
             DropdownFrame.Parent = Tab
-            DropdownFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+            DropdownFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             DropdownFrame.BorderSizePixel = 0
             DropdownFrame.Size = UDim2.new(0, 408, 0, 35)
 
@@ -819,7 +819,7 @@ function Library:Create(xHubName,xGameName)
                     Tab.CanvasSize = UDim2.new(0,0,0,DropListLayout.AbsoluteContentSize.Y + 100)
                     wait(0.1)
                     game:GetService("TweenService"):Create(DropdownIcon, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                        ImageColor3 = Color3.fromRGB(55, 74, 251)
+                        ImageColor3 = Color3.fromRGB(0, 0, 0)
                     }):Play()
                     Tab.CanvasSize = UDim2.new(0,0,0,DropListLayout.AbsoluteContentSize.Y + 100)
                 end 

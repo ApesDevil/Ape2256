@@ -1,22 +1,17 @@
---[Aimviewer Settings]--
-AimviewerToggleKeybind = "T" -- Aimviewer toggle keybind
-AimviewerSwitchKeybind = "Y" -- Switch player keybind
-AimviewerColor = Color3.fromRGB(28, 56, 139) -- Color of Aimviewer beam
-AimviewerBeamWidth = 0.2 -- Width of Aimviewer beam
-AimviewerMaterial = "Neon" -- Material of Aimviewer beam (if material is invalid it will default to neon)
+AimviewerToggleKeybind = "T"
+AimviewerSwitchKeybind = "Y"
+AimviewerColor = Color3.fromRGB(28, 56, 139) 
+AimviewerBeamWidth = 0.2 
+AimviewerMaterial = "Neon"
 
-
---[Prediction Settings]--
 PredictionKeybind = "V" -- Prediction toggle keybind
 PredictionMultiplier = 3 -- Prediction Multiplier
 
---[Antilock]--
-AntiKeybind = "C" -- Antilock toggle keybind
-AntiVelocity = 1450,0,0 -- Only change this if yk what youre doing
+AntiKeybind = "C"
+AntiVelocity = 1450,0,0
 
---[Miscallaneous]--
-icon = "rbxassetid://https://1008023573287411713" -- Notification Image
-loader = true -- Loader
+icon = "rbxassetid://https://1008023573287411713"
+loader = true
 console = false -- Console Toggle [True = Enabled, False = Disabled]
-consolename = "! ape#2256" -- Console Name
-consolecolor = "@@BLUE@@" -- Console Text Color
+consolename = "! ape#2256"
+consolecolor = "@@BLUE@@"

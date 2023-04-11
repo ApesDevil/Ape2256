@@ -1,0 +1,17 @@
+AimviewerToggleKeybind = "T"
+AimviewerSwitchKeybind = "Y"
+AimviewerColor = Color3.fromRGB(28, 56, 139) 
+AimviewerBeamWidth = 0.2 
+AimviewerMaterial = "Neon"
+
+PredictionKeybind = "V" -- Prediction toggle keybind
+PredictionMultiplier = 3 -- Prediction Multiplier
+
+AntiKeybind = "C"
+AntiVelocity = 1450,0,0
+
+icon = "rbxassetid://https://1008023573287411713"
+loader = true
+console = false -- Console Toggle [True = Enabled, False = Disabled]
+consolename = "! ape#2256"
+consolecolor = "@@BLUE@@"

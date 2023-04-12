@@ -1,15 +1,19 @@
-AimviewerToggleKeybind = "T"
-AimviewerSwitchKeybind = "Y"
-AimviewerColor = Color3.fromRGB(28, 56, 139) 
-AimviewerBeamWidth = 0.2 
-AimviewerMaterial = "Neon"
+-- //Prediction Multiplier\\ --
+PredictionKeybind = "V" -- Prediction Multiplier keybind
+PredictionMultiplier = 10 -- Prediction Multiplier
 
-PredictionKeybind = "V" -- Prediction toggle keybind
-PredictionMultiplier = 3 -- Prediction Multiplier
+-- //Velocity Manipulation\\ --
+VelocityManipulationKeybind = "c" -- Velcoity Manipulation keybind
+VelcoityManipulationVelocity = -1650,0,0 -- Manipulates your velocity
 
-AntiKeybind = "C"
-AntiVelocity = 1450,0,0
+-- //Aimviewer Settings\\ --
+AimviewerToggleKeybind = "T" -- Aimviewer toggle keybind
+AimviewerSwitchKeybind = "Y" -- Switch player keybind
+AimviewerColor = Color3.fromRGB(255, 255, 255) -- Color of Aimviewer beam
+AimviewerBeamWidth = 0.3 -- Width of the Aimviewer beam
+AimviewerMaterial = "Neon" -- Material of Aimviewer beam
 
+-- //Notification Image\\ --
 icon = "rbxassetid://https://1008023573287411713"
 loader = true
 console = false -- Console Toggle [True = Enabled, False = Disabled]

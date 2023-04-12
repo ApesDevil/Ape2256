@@ -1,12 +1,12 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ApesDevil/Ape2256/main/Locktest"))()
  
  
-local Window = Library:Create("Da Hood","AB Script Management")
+local Window = Library:Create("Da Hood","ABSM")
 local Tab1 = Window:Tab("Aimlocks",true)
  
 Tab1:Label("Aimlock")
  
-Tab1:Button("ASM",function(bool)
+Tab1:Button("ABSM",function(bool)
     getgenv().AimPart = "HumanoidRootPart"
 	getgenv().AimlockKey = "Z"
 	getgenv().AimRadius = 30
